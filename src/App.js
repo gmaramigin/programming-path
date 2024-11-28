@@ -22,4 +22,17 @@ function App() {
   );
 }
 
-export default App;
+function MyButton () {
+  return (
+    <button>I'm button</button>
+  );
+}
+
+export default function Button() {
+  return (
+    <div>
+      <h1>This the first layout with react App</h1>
+      <MyButton />
+    </div>
+  );
+}
